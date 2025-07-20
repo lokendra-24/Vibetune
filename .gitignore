@@ -1,24 +1,11 @@
-# Node
+# Node.js / React / Python ignore
 node_modules/
-npm-debug.log
-yarn.lock
-pnpm-lock.yaml
+.vscode/
+.env
+.venv/
+__pycache__/
+*.pyc
 dist/
 build/
-
-# Python
-__pycache__/
-*.py[cod]
-*.env
-.venv/
-venv/
-
-# System files
+.next/
 .DS_Store
-Thumbs.db
-
-# VS Code settings
-.vscode/
-
-# Logs
-*.log
